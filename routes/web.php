@@ -1,5 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\usuarioController;
 
-Route::get('/', 'BookController@index');
+Route::resource('/', usuarioController::class);
+//Route::get('/', 'usuarioController@index');
