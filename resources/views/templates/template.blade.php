@@ -7,7 +7,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Chrysalis</title>
+    <style>@keyframes butterfly-flying {
+        0%{transform: scaleX(1);}
+        50%{transform: scaleX(0.6);}
+        100%{transform: scaleX(1);}
+    }
+    
+    #butterfly_img{
+        transition: all 2s ease;
+    }
+    #butterfly_img:hover{
+        animation-name: butterfly-flying;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+    }
+    </style>
 </head>
 
 <body>
@@ -16,7 +32,7 @@
         <nav class="bg-white border-gray-200 dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div class="flex flex-wrap items-center space-x-3 rtl:space-x-reverse">
-                    <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img src="assets/images/Black_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
+                    <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img id="butterfly_img" src="assets/images/Black_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
                     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img src="assets/images/Black_Chrysalis.png" class="h-8" alt="Chrysalis Logo Texto" /></a>
                 </div>
                 <button data-collapse-toggle="navbar-default" type="button"
@@ -52,7 +68,7 @@
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Carrinho</a>
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><img src="assets/images/icons/cart.svg" alt="Carrinho" class="fill-black"></a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +82,7 @@
     <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-700 sm:text-center dark:text-gray-400">© 2023 <a href=""
+            <span class="block text-sm text-gray-700 sm:text-center dark:text-gray-400">© 2024 <a href=""
                     class="hover:underline">Chrysalis™</a>. Todos os Direitos reservados.</span>
         </div>
     </footer>
