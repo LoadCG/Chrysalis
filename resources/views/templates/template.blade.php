@@ -72,19 +72,18 @@
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-900">Promo</a>
-                        </li>
-                        <li>
-                            <a href="#"
                                 class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-900">Ajuda</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900"><img src="assets/images/icons/cart.svg" alt="Carrinho" style="filter: invert(100%)"></a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
+                                    src="assets/images/icons/cart.svg" alt="Carrinho" style="filter: invert(100%)"></a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900"><img src="assets/images/icons/account.svg" alt="Carrinho" style="filter: invert(100%)"></a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
+                                    src="assets/images/icons/account.svg" alt="Carrinho"
+                                    style="filter: invert(100%)"></a>
                         </li>
                     </ul>
                 </div>
@@ -100,9 +99,10 @@
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-700 sm:text-center dark:text-gray-400">© 2024 <a href=""
                     class="hover:underline">Chrysalis™</a>. Todos os Direitos reservados.</span>
-                    <span class="block text-sm text-gray-700 sm:text-center dark:text-gray-400">Desenvolvidos por alunos do <a href="https://colegiocomercialcpv.com.br" target="_blank"
-                    class="hover:underline">Colégio Comercial de Caçapava</a>.</span>
-        </div>        
+            <span class="block text-sm text-gray-700 sm:text-center dark:text-gray-400">Desenvolvidos por alunos do <a
+                    href="https://colegiocomercialcpv.com.br" target="_blank" class="hover:underline">Colégio Comercial
+                    de Caçapava</a>.</span>
+        </div>
     </footer>
 
 
